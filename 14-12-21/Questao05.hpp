@@ -14,7 +14,7 @@ class Questao05 {
 
         // Implementacao da questao 05 - conversao de celsius para fahrenheit.
         static void abrir() {
-            std::cout << "Digite a temperatura em graus celsius -> ";
+            std::cout << "\nDigite a temperatura em graus celsius -> ";
             double tempeCelsius;
             std::cin >> tempeCelsius;;
 

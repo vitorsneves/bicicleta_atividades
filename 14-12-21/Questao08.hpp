@@ -7,7 +7,7 @@ class Questao08 {
     public:
         // Implementacao da questao 08 - verifica se numero eh divisivel por 3.
         static void abrir() {
-            std::cout << "Digite um numero inteiro." << std::endl;
+            std::cout << "\nDigite um numero inteiro." << std::endl;
             int numero;
             std::cin >> numero;
 

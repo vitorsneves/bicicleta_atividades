@@ -11,7 +11,7 @@ class Questao06 {
             double tempoGasto;
             
             // Coleta informacoes.
-            std::cout << "Digite os valores solicitados abaixo.\n" << std::endl;
+            std::cout << "\nDigite os valores solicitados abaixo.\n" << std::endl;
             std::cout << "Velocidade Media (km/hora) -> ";
             std::cin >> velocidadeMedia;
             std::cout << "Tempo Gasto na viagem (horas) -> ";

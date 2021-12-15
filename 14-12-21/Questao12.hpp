@@ -24,7 +24,7 @@ class Questao12 {
 
     private:
         static void header() {
-            std::cout << "==================================" << std::endl;
+            std::cout << "\n==================================" << std::endl;
             std::cout << "||  POLEGADAS  ||  CENTIMETROS  ||" << std::endl;
             std::cout << "==================================" << std::endl;
         }

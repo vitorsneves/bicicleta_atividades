@@ -16,7 +16,7 @@ class Questao02 {
 
         // Implementacao da questao02 - encontra hipotenusa do triangulo retangulo.
         static void abrir() {
-            std::cout << "Digite o valor dos dois catetos." << std::endl;
+            std::cout << "\nDigite o valor dos dois catetos." << std::endl;
             
             // Le dados digitados.
             double catetos[2];
