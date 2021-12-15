@@ -8,7 +8,7 @@ class Questao04 {
     public:
         // Implementacao da questao 4 - calcula salario de professor.
         static void abrir() {
-            std::cout << "Digite o valor da hora/aula -> ";
+            std::cout << "\nDigite o valor da hora/aula -> ";
             double salarioHora;
             std::cin >> salarioHora;
             

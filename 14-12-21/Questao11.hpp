@@ -6,7 +6,7 @@ class Questao11 {
 
     public:
         static void abrir() {
-            std::cout << "Numeros de 100 a 0:\n" << std::endl;
+            std::cout << "\nNumeros de 100 a 0:\n" << std::endl;
 
             //printa contagem regressiva
             contagemRegressiva(100, 1);

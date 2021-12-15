@@ -9,7 +9,7 @@ class Questao07 {
         static void abrir() {
             // Recebe dados do usuario.
             double num1, num2, soma = 0;
-            std::cout << "Digite dois numeros." << std::endl;
+            std::cout << "\nDigite dois numeros." << std::endl;
             std::cin >> num1 >> num2;
 
             soma = num1 + num2;

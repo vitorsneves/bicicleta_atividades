@@ -12,7 +12,7 @@ class Questao10 {
 
     public:
         static void abrir() {
-            std::cout << "Digite o salario -> ";
+            std::cout << "\nDigite o salario -> ";
             double salarioInicial;
             std::cin >> salarioInicial;
 

@@ -14,7 +14,7 @@ class Questao03 {
 
         // Implementacao da questao 3 - aplica desconto sobre preco de produto
         static void abrir() {
-            std::cout << "Digite o preco do produto -> ";
+            std::cout << "\nDigite o preco do produto -> ";
             double preco;
             std::cin >> preco;
 
