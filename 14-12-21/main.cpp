@@ -9,6 +9,10 @@
 #include "Questao07.hpp"
 #include "Questao08.hpp"
 #include "Questao09.hpp"
+#include "Questao10.hpp"
+#include "Questao11.hpp"
+#include "Questao12.hpp"
+#include "Questao13.hpp"
 
 /* Atividade de alinhamento - I (14/12/2021)
  * Aluno: Vitor Belarmino Silva Neves
@@ -19,15 +23,17 @@ void imprimeMenu() {
     system("clear || cls");
     std::cout << "ESCOLHA UMA QUESTAO" << std::endl;
     std::cout << "1 - MEDIA DE 3 NUMEROS" << std::endl;
-    std::cout << "2 - HIPOTENUSA" << std::endl;
-    std::cout << "3 - DESCONTO" << std::endl;
-    std::cout << "4 - SALARIO" << std::endl;
+    std::cout << "2 - HIPOTENUSA DO TRIANGULO" << std::endl;
+    std::cout << "3 - DESCONTO EM PRODUTO" << std::endl;
+    std::cout << "4 - SALARIO DO PROFESSOR" << std::endl;
     std::cout << "5 - CONVERTER TEMPERATURA (C PARA F)" << std::endl;
     std::cout << "6 - CONSUMO DE COMBUSTIVEL EM VIAGEM" << std::endl;
-    std::cout << "7 - SOMA DOIS NUMEROS" << std::endl;
-    std::cout << "8 - EH MULTIPLO DE 3?" << std::endl;
+    std::cout << "7 - SOMA DE DOIS NUMEROS" << std::endl;
+    std::cout << "8 - NUMERO EH MULTIPLO DE 3?" << std::endl;
     std::cout << "9 - EH DIVISIVEL POR 10, 5 OU 2?" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << "10 - DESCONTO DO INSS" << std::endl;
+    std::cout << "11 - VALORES DE 100 A 0" << std::endl;
+    std::cout << "12 - TABELA DE POLEGADAS PARA CM" << std::endl;
     std::cout << "" << std::endl;
     std::cout << "14 - FECHAR PROGRAMA" << std::endl;
 }
@@ -67,6 +73,18 @@ bool menu() {
             break;
         case 9:
             Questao09::abrir();
+            break;
+        case 10:
+            Questao10::abrir();
+            break;
+        case 11:
+            Questao11::abrir();
+            break;
+        case 12:
+            Questao12::imprimirTabela();
+            break;
+        case 13:
+            Questao13::abrir();
             break;
         case 14:
             // Fecha programa.

@@ -7,7 +7,7 @@ class Questao01 {
     public:
     
         // Calcula media aritmetica de 3 numeros.
-        static double mediaAritmetica(double num1, double num2, double num3) {
+        static double mediaAritmetica(const double& num1, const double& num2, const double& num3) {
             double media;
             media = (num1 + num2 + num3) / 3.0;
             return media;
