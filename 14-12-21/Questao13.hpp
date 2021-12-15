@@ -9,12 +9,13 @@ class Questao13 {
         static RETRI* retri;
 
     public:
-        static void abrir();
+        static void menuPrincipal();
 
     private:
         static void imprimirMenuPrincipal();
-        static void menuPrincipal();
+        static void imprimirMenuRetangulo();
         static void menuRetangulo();
+        static void imprimirMenuTriangulo();
         static void menuTriangulo();
 
 };
