@@ -11,7 +11,7 @@ class Questao09 {
             int numero;
             std::cin >> numero;
 
-            // Posicao 0: divisivel por 10?
+            // Posicao 0: divisivel por 10? true ou false
             // 1: por 5?
             // 2: por 2?
             bool divisivel[] = {false, false, false};
@@ -42,15 +42,15 @@ class Questao09 {
             std::cout << std::endl;
         }
 
-        //Forma alternativa de se fazer a questao 9:
-        static void questao09formaAlternativa() {
+        //Forma alternativa de se fazer a questao 9
+        static void formaAlternativa() {
             std::cout << "Digite um numero inteiro." << std::endl;
             int numero;
             std::cin >> numero;
 
             if(numero % 10 == 0) {
                 // Se for divisivel por 10, tambem sera divisivel por 5 e por 2.
-                // Afinal, 10 = 2 * 5.
+                // Afinal, 2 * 5 = 10.
                 std::cout << "\nO numero eh divisivel por 10, 5 e 2." << std::endl;
                 return;
             }
