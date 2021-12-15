@@ -15,7 +15,7 @@ class Questao01 {
 
         // Implementacao da questao 1 - encontrar media de 3 numeros fornecidos.
         static void abrir() {
-            std::cout << "Digite tres numeros." << std::endl;
+            std::cout << "\nDigite tres numeros." << std::endl;
 
             // Coleta tres numeros digitados pelo usuario.
             double numeros[3];

@@ -21,7 +21,7 @@
 // Exibe menu com todas as questoes da lista.
 void imprimeMenu() {
     system("clear || cls");
-    std::cout << "ESCOLHA UMA QUESTAO" << std::endl;
+    std::cout << "\nESCOLHA UMA QUESTAO\n" << std::endl;
     std::cout << "1 - MEDIA DE 3 NUMEROS" << std::endl;
     std::cout << "2 - HIPOTENUSA DO TRIANGULO" << std::endl;
     std::cout << "3 - DESCONTO EM PRODUTO" << std::endl;
@@ -34,14 +34,14 @@ void imprimeMenu() {
     std::cout << "10 - DESCONTO DO INSS" << std::endl;
     std::cout << "11 - VALORES DE 100 A 0" << std::endl;
     std::cout << "12 - TABELA DE POLEGADAS PARA CM" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << "13 - AREA DO TRIANGULO/RETANGULO" << std::endl;
     std::cout << "14 - FECHAR PROGRAMA" << std::endl;
 }
 
 bool menu() {
     // Recebe a escolha do usuario.
     int escolha;
-    std::cout << "escolha -> ";
+    std::cout << "\nescolha -> ";
     std::cin >> escolha;
 
     // Abre a questao escolhida.
@@ -84,8 +84,8 @@ bool menu() {
             Questao12::imprimirTabela();
             break;
         case 13:
-            Questao13::abrir();
-            break;
+            Questao13::menuPrincipal();
+            return true;
         case 14:
             // Fecha programa.
             return false;
